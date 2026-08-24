@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #3b62bb;
+}
+
+.card {
+    background: #e8e3d8;
+    padding: 40px 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 320px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #2c2c2c;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.candidate {
+    margin-bottom: 25px;
+}
+
+.candidate h3 {
+    font-size: 22px;
+    color: #333;
+    font-weight: 600;
+}
+
+.count {
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+    margin: 5px 0 10px 0;
+}
+
+button {
+    background: transparent;
+    border: 1px solid #777;
+    padding: 8px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #333;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background: #d4cebe;
+}
+
+.result {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.result h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+#resetBtn {
+    border-color: #888;
+}
